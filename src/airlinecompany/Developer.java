@@ -14,6 +14,7 @@ public class Developer extends Employee {
 
 	public Developer(String fName, String lName, String pNum, int salary) {
 		super(fName, lName, pNum, salary);
+                System.out.println("Developer created");
 		setDepartment(DepartmentType.Developer);
 		
 	}
